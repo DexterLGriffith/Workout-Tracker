@@ -26,3 +26,12 @@ router.put("/api/workouts/:id", (req, res) => {
             res.status(400).json(err);
         });
 });
+router.post("/api/workouts", (req,res) => {
+    workout.create(req.body)
+    .then((result) => {
+        res.json(result)
+    })
+    .catch(err => {
+        res.status(400).json(err);
+    });
+});
