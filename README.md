@@ -8,6 +8,12 @@ The Fitness Tracker is a webapp that allows the user to create and track daily w
 
 ## Tasks Completed
 
+1. Created basic file from Github with readme.md, license and initial starting files.
+2. Downloaded prebuilt code sections for public, seeders and the package.json files. 
+3. Set up server files to get app running within the server, by adding models folder with index.js and workout.js files. 
+4. Added .gitignore file to repo and had to delete the accidentally downloaded node_modules files.  
+5. 
+
 
 
 ## Installation 
