@@ -4,7 +4,7 @@ The Fitness Tracker is a webapp that allows the user to create and track daily w
 
 ## Description 
 
-
+The Fitness Tracker (Workout-Tracker) webapp is an app thats front end was prebuilt. For this assignment we were tasked with linking the backend together, to get the different routes to push to the front end, and allow the user to create a workout, and track what they had done for the day.  
 
 ## Tasks Completed
 
@@ -12,7 +12,10 @@ The Fitness Tracker is a webapp that allows the user to create and track daily w
 2. Downloaded prebuilt code sections for public, seeders and the package.json files. 
 3. Set up server files to get app running within the server, by adding models folder with index.js and workout.js files. 
 4. Added .gitignore file to repo and had to delete the accidentally downloaded node_modules files.  
-5. 
+5. Set up Routes folder with api.js file, and htmlroutes.js to start getting the infomation to move around within the routes directories. 
+6. Added router.put and router.post routes to api.js file.
+7. Added router.get to api.js file.
+8. Deployed project to heroku.
 
 
 
@@ -41,9 +44,7 @@ Dexter Griffith
 1. https://smu.bootcampcontent.com/SMU-Coding-Bootcamp/smu-dal-fsf-pt-07-2021-u-c/-/blob/master/18-NoSQL/04-Important/MongoAtlas-Setup.md
 2. https://smu.bootcampcontent.com/SMU-Coding-Bootcamp/smu-dal-fsf-pt-07-2021-u-c/-/blob/master/18-NoSQL/04-Important/MongoAtlas-Deploy.md
 3. https://smu.bootcampcontent.com/SMU-Coding-Bootcamp/smu-dal-fsf-pt-07-2021-u-c/-/tree/master/18-NoSQL/01-Activities/07-Stu-Mongo-CRUD
-4. 
-5. 
-6. 
-7. 
-8. 
-
+4. https://stackoverflow.com/questions/50173080/mongonetworkerror-failed-to-connect-to-server-localhost27017-on-first-connec
+5. https://expressjs.com/en/guide/routing.html
+6. https://mongoosejs.com/docs/schematypes.html
+7. https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes
